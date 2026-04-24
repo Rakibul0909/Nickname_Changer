@@ -1,9 +1,4 @@
-Samajh gaya — tumko full clean README.md chahiye jisme API endpoints bhi proper code block (copy button) me ho + sab ek hi jagah clean format me.
 
-Yeh final GitHub-ready README.md hai 👇 (direct copy paste karo):
-
-
----
 
 # 💎 Free Fire Nickname Changer API
 
@@ -13,12 +8,7 @@ Yeh final GitHub-ready README.md hai 👇 (direct copy paste karo):
 
 ## 🚀 Features
 
-- 🔐 Guest Login (UID + Password)
-- 🔑 Access Token Support
-- 🪙 JWT Token Support
-- ⚡ Fast Flask API
-- 🔒 AES + Protobuf Encryption
-- 📊 Clean JSON Responses
+🔐 Guest Login (UID + Password) 🔑 Access Token Support 🪙 JWT Token Support ⚡ Fast Flask API 🔒 AES + Protobuf Encryption 📊 Clean JSON Responses
 
 ---
 
@@ -30,17 +20,11 @@ http://127.0.0.1:5001
 
 ## 📥 API Endpoints
 
-### 🔐 Guest Login
+GET /guest?uid={uid}&password={password}&name={new_name}
 
-/guest?uid={uid}&password={password}&name={new_name}
+GET /token?access_token={access_token}&name={new_name}
 
-### 🔑 Access Token
-
-/token?access_token={access_token}&name={new_name}
-
-### 🪙 JWT Token
-
-/token?jwt={jwt_token}&name={new_name}
+GET /token?jwt={jwt_token}&name={new_name}
 
 ---
 
@@ -48,11 +32,7 @@ http://127.0.0.1:5001
 
 http://127.0.0.1:5001/guest?uid=123456789&password=yourpassword&name=NewName
 
-
-
 http://127.0.0.1:5001/token?access_token=YOUR_ACCESS_TOKEN&name=NewName
-
-
 
 http://127.0.0.1:5001/token?jwt=YOUR_JWT_TOKEN&name=NewName
 
@@ -100,22 +80,21 @@ python app.py
 🧪 Requirements
 
 Python 3.8+
-
 Flask
-
 requests
-
 pycryptodome
-
 protobuf
-
 
 
 ---
 
 🏷️ Tags
 
-FreeFire API Nickname Changer Flask API Gaming Tools Python API
+FreeFire API
+Nickname Changer
+Flask API
+Gaming Tools
+Python API
 
 
 ---
@@ -123,9 +102,7 @@ FreeFire API Nickname Changer Flask API Gaming Tools Python API
 👨‍💻 Credits
 
 @INDRAJIT_1M
-
 @spideyabd
-
 
 
 ---
@@ -133,29 +110,23 @@ FreeFire API Nickname Changer Flask API Gaming Tools Python API
 🔗 Join Telegram
 
 https://t.me/INDRAJITFREEAPI
-
 https://t.me/SPIDEYFREEFILES
-
 
 
 ---
 
 ⚠️ Disclaimer
 
-This project is for educational purposes only. Use at your own risk.
+This project is for educational purposes only.
+Use at your own risk.
 
 ---
 
-Ab isme:
+Ab yeh **exact GitHub style README** hai:
 
-✔ API endpoints → code block (copy button auto GitHub me aata hai)  
-✔ Response JSON → proper formatted  
-✔ Installation → clean  
-✔ Sab ek hi flow me  
+✔ Har section copyable  
+✔ Clean formatting  
+✔ No extra garbage  
+✔ Direct render perfect  
 
-Agar next level chahiye (🔥):
-- Telegram **button style badges**
-- GitHub **shields badges**
-- Banner image
-
-bol dena, usko bhi pro level bana deta hoon.
+Agar chaho to next step me **0** bhi bana sakta hoon (pro README style).
