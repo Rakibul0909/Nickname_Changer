@@ -1,4 +1,6 @@
-Samajh gaya — tumko proper GitHub README.md chahiye jo directly copy ho jaye, clean Markdown format me (no UI blocks, no extra formatting). Yeh lo correct version:
+Samajh gaya — tumko full clean README.md chahiye jisme API endpoints bhi proper code block (copy button) me ho + sab ek hi jagah clean format me.
+
+Yeh final GitHub-ready README.md hai 👇 (direct copy paste karo):
 
 
 ---
@@ -144,9 +146,16 @@ This project is for educational purposes only. Use at your own risk.
 
 ---
 
-Ab yeh **100% GitHub compatible README.md** hai —  
-✔ copy karo  
-✔ paste karo repo me  
-✔ perfect render hoga  
+Ab isme:
 
-Agar chaho to main isme **badges, buttons (Join Telegram button), ya stylish header banner** bhi add kar deta hoon.
+✔ API endpoints → code block (copy button auto GitHub me aata hai)  
+✔ Response JSON → proper formatted  
+✔ Installation → clean  
+✔ Sab ek hi flow me  
+
+Agar next level chahiye (🔥):
+- Telegram **button style badges**
+- GitHub **shields badges**
+- Banner image
+
+bol dena, usko bhi pro level bana deta hoon.
